@@ -1,0 +1,5078 @@
+{
+  "seed": 42,
+  "summary": {
+    "train": {
+      "patients": 707,
+      "total_nodules": 1878,
+      "multi_rater_nodules": 1313,
+      "conflict_nodules": 306,
+      "conflict_rate": 0.1629
+    },
+    "cal": {
+      "patients": 101,
+      "total_nodules": 266,
+      "multi_rater_nodules": 193,
+      "conflict_nodules": 45,
+      "conflict_rate": 0.1692
+    },
+    "test": {
+      "patients": 202,
+      "total_nodules": 507,
+      "multi_rater_nodules": 374,
+      "conflict_nodules": 86,
+      "conflict_rate": 0.1696
+    }
+  },
+  "patients": {
+    "839c8e98ec3f27e5": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "6a0ff0598b30156c": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "5df15ff280056259": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 2
+    },
+    "7ea4a59d02915470": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "22e39ea5420d6fe3": {
+      "split": "cal",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "2494502af05be6c9": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "63bc011224e3613c": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "c75e4621be36f721": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "e3d84d9d04fff658": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "875385a52a020bff": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "e59a3a8baa1f9843": {
+      "split": "train",
+      "total_nodules": 10,
+      "conflict_nodules": 2
+    },
+    "27be1aad9c091b97": {
+      "split": "train",
+      "total_nodules": 12,
+      "conflict_nodules": 2
+    },
+    "77a412cb1d789d5f": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "fe7aabb6c2dd995e": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "c4ef65e5a5aac2ef": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "436587e8e9424213": {
+      "split": "test",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "af5aa5db0055999a": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "82bbc4a0f7162b22": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "4b29d915f4f9bbdb": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "ad695f37c156914b": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "8e583f872d641fa6": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "b55214b9b2a1b2bc": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "078aaca412f5bf46": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "bde3f3653093390f": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "5910c8ea0ef9c119": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "cc332ac992db3b6d": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "19f70d35f8df70f2": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "ebc791f15d61c17f": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "0993e87e8385207c": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "3fd1cc8c00154819": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "249b0aa8deaf070b": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "4fd4a10b9d436e84": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "a47f142237873991": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "abd0da927dc84c0d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "afd3cad47c7d984e": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "bb9b8608da6ad5df": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "5dd8ca1d677846d6": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "3c04afe9d19006f7": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "e61a7a097d5d78ce": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "a69e271adbd0c0fa": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "856864a0ec5d1bce": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "3aa15a4b8a9830dd": {
+      "split": "train",
+      "total_nodules": 10,
+      "conflict_nodules": 3
+    },
+    "771a6c98dfb08ea1": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 2
+    },
+    "9daf3319cb84dd30": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "7606822292c5ca2a": {
+      "split": "train",
+      "total_nodules": 12,
+      "conflict_nodules": 3
+    },
+    "418d7ed51aa98420": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "45d272364418d07b": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "c70d1436b9c1eacc": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "d3ad3457887cd4bd": {
+      "split": "train",
+      "total_nodules": 15,
+      "conflict_nodules": 0
+    },
+    "243dc59842a746df": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "589d9d1e1bf1bbb0": {
+      "split": "cal",
+      "total_nodules": 3,
+      "conflict_nodules": 2
+    },
+    "89e671456a9d7f52": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "b4911656cf759ce1": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "adb7a455a0fabaf2": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "196853f5208139fb": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 2
+    },
+    "7bb0ed5d559a62fd": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "f54e513b6f3537b3": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "fe55f71b5a99a168": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "776f71496caf1513": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "032cd8568f97faa6": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "155d4a072fe501ae": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 2
+    },
+    "38b35ab8c66efbd0": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "9dde3cc1f546a7a0": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "a2ba09dd3fe59799": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "fde70ebdfbd0b1c8": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "557a8c9ae27edd03": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "b44dba9582276ac4": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 2
+    },
+    "71d6f00ab94ce952": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 4
+    },
+    "703dd919859f3ee9": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 2
+    },
+    "88109e4937ca5886": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "611abf90ac66f712": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "54f814445854ec9a": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "fe00d24bfc4ebb92": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 2
+    },
+    "c3f7b4e3047b9ec2": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "499c836c148c2256": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "66df4a5b76472771": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 2
+    },
+    "604e96b9dfbc7d41": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "23a83b225fd661af": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "95d99acb5297ae6e": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "ba85c4be1ad14235": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "6be2dd212f319648": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 2
+    },
+    "1eee0c96fd11cbe2": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "83c2a947694b8d64": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "7cf85ef369976f3d": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "ae57a24d2c8f56b8": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "c0660aab1896bcdf": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "d095c9d753e73c0a": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "e5d9487daee4520c": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "9f80074d25c800b7": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "5c75625fff87ab82": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "3b5253135461b050": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 3
+    },
+    "7534998e830e6eee": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "675246647c660953": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "102c76922905d122": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "155467e923d326f9": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "eb295d2ea8a71077": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "6354dd8328aeda13": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "d6e0e03440676558": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "529db3108f8ad272": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "cfb7f1da215c02f8": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "8a8a69dc9d21a77b": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "1d5cccafb24fca43": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "8b254c43da0b7413": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "dfab32e765b44119": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "6bf18a4e51834772": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "57a07634486fc628": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "a495b7863802f374": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "d82b18634728f910": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "13a5b67b14c38869": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "dcd282b8cb1e3e15": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "d249c1b43ee08a17": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "830b4f9d50f11be8": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "987d4911d88b09e9": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "a67773e09e6ce55a": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "bda79c7ca3de875b": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "af4e8efaca9caa03": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "6afa324d4fa404b2": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "661f768ed33b76c9": {
+      "split": "cal",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "62813a8e21ad8fe6": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "700f2e15fa2c2c20": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "bc3e2dc083de75ef": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 2
+    },
+    "118a76db5b50c804": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "08155b8d75cb8abe": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "f1e76783f16bf836": {
+      "split": "train",
+      "total_nodules": 15,
+      "conflict_nodules": 2
+    },
+    "790ff678590016cc": {
+      "split": "cal",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "80ed42cb628cdf9c": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "749d4cdf8aaf279b": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "28ef54948451febe": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "0b75206310658695": {
+      "split": "test",
+      "total_nodules": 15,
+      "conflict_nodules": 7
+    },
+    "a92986fc06dd9e93": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 2
+    },
+    "0d09907daa759798": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "c8193d028738fb8c": {
+      "split": "train",
+      "total_nodules": 14,
+      "conflict_nodules": 2
+    },
+    "b2a83bb0a3b0fb3f": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "05017d1f7435e906": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "48624959b80afc50": {
+      "split": "test",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "768e112da4b35d80": {
+      "split": "train",
+      "total_nodules": 9,
+      "conflict_nodules": 1
+    },
+    "babacb021de4dcb0": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "b608faa55b9b9863": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "af197adb549e0209": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "9cb67816ccfba2c8": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "14bff01a4c64f18b": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 2
+    },
+    "799f87fb019bc0bc": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "74696f3d8f5271aa": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "5f97e56fef000a96": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "1ef897b317ae8657": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "d4ee9fffde1cf1cf": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "9fc0d35ee238a546": {
+      "split": "test",
+      "total_nodules": 7,
+      "conflict_nodules": 2
+    },
+    "6502842f4924ec01": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "0dc541e565040ef1": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "3b24688ff816958e": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "dfd75653d376ff07": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "9878fcb7b752aadf": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "90814a66e268f736": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "94958c49fc63f80e": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "0731d2565b3fb75d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "1c62c8923704a871": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "f42ce9e3677b5ceb": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "258af465b106ea09": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "660c4cf3d8e07de9": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "ae45bae2a0b01dd5": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 3
+    },
+    "2ca480b7b6bb2d99": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "469b17717bb5db2a": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "3c5cd4b003fc4fe5": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "a40d861688a42cea": {
+      "split": "train",
+      "total_nodules": 11,
+      "conflict_nodules": 4
+    },
+    "5a2e45dbfcb3bb54": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "54fe8bf15c3f433b": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "692cd75c97672f53": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "ca36c55e6850c09d": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "b9a185a426938e81": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "4238fedf51de80a9": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "2fb14f58e625a317": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "ed531c0d5911b32e": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "75ed507411119df3": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "7556d3a359510f8c": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "dfd6001a27865b77": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "826d74079f449dfb": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "89eb1f4f0ccec5d2": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "695aef74f071c099": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "f6305d4cfc101031": {
+      "split": "train",
+      "total_nodules": 11,
+      "conflict_nodules": 1
+    },
+    "0b2c6620469c0148": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "e42cb36ce1ee7421": {
+      "split": "test",
+      "total_nodules": 8,
+      "conflict_nodules": 5
+    },
+    "ace21b2c8bae9850": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "3ead280b61fae293": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "80460da00908220d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "8dfb6a3941e50d21": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "1470ca6bfebc5907": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "486f5ffe7f84a4d6": {
+      "split": "cal",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "1a01a80988940f4f": {
+      "split": "test",
+      "total_nodules": 10,
+      "conflict_nodules": 2
+    },
+    "04c403fe152edbbb": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "35e8b222797397ae": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "78c29f20e6d37d04": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "4caf90b73f98232b": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "2a4673145a929475": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "e3584d7139700cd3": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "d89a14c351d643e6": {
+      "split": "cal",
+      "total_nodules": 7,
+      "conflict_nodules": 2
+    },
+    "1556d57d76ab11a3": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "cde6cf4a0970d77d": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "8b363cd2ad285a92": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "7d4766c4ef867c4e": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "4ceca9a8a89b45d2": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "9652457bd4e9b5d5": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "0f530b918e0aa7f6": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "c4eaeb1d83fc4ccd": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "684ee9b335b61e98": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "f06dce575e11b502": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "1d15da5b718fa945": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "7ccaa65fe1eebd5c": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "f337f183c6e6a7ef": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "c99bf9e45946920c": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "fa89bdc68eceeb82": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "af89d3fba92b791c": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "1af3697d3f7817b4": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "015548e2af9ed5c6": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "3db4bd691b507ce5": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "ef37b47d43746401": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "2b6ab6fd5abce259": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "51ec8425637907da": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 3
+    },
+    "9bc87174d3293094": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "4774d3673fd59509": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "d43ebfc70690918e": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 3
+    },
+    "d17d532ae63f79b6": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "446424b4d2162997": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "85b87c43c86862d8": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "5df1423476f12f28": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "cc61ace53192b7b1": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "e9e26a3efcb03d98": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "5bcc5ecf4a1c0bad": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "2c29e943be4d0a55": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "7d45044bb01ccaf3": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "c7f15c6bcdf97225": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "c08988daed044782": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "53c6a6936594c265": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "9f8d8619152d438a": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "575c39f59fa2e306": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "c00edbadc5a5455e": {
+      "split": "cal",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "9f5908efd40d77af": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "7a8e978bc61c80d1": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "2ee6403ea2d611cc": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "cc1f9ca1c21dbc10": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "fe434ffe7e8dd126": {
+      "split": "cal",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "ad870ddea856f888": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "7814c2573d800c47": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "371220645886b8da": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "a73f7d573846ae0d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "e638f71ca016dffa": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "02f1049c84934624": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "989e329f58daed66": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "028d9480a2454c6d": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "bcb409ffd01ad16e": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 2
+    },
+    "ba57ab6d4ebaa267": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "1625c2f8f7016404": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "880803cbf7eb1955": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "86bc0c7237e9739c": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "2ff11a66c237dcb6": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "8755ba9e385569a9": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "6612ce08e26bef88": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "1f0f7861adc5dec8": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "875dfe02619c403a": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "54e8c3dc7aca886a": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "0ffd7fcac023e598": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "c8d945034816ec85": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "f7e21921f5487c36": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "1aab5c019565a8f4": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 2
+    },
+    "9877b6cc0e56df92": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "183012a823a37929": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "b33dc7f56904f8e6": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "d6def3eed10d7adf": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "b97aac1449c1b863": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "015bd0196e5fae45": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "62ed75ff4cbd9b17": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "978a642e57ea3995": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "6fad7fafa81cb6bc": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "ea21ac19b2d43d92": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "7ebe0f10dcc6b8be": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "a6f402f7fe363146": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "add8077d3f3dcbaa": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "d375598789a2b3e9": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "8de84e9fa1e390dd": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "4ba713f18349ddb8": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "ec8d9be92deea609": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "461a8ea6104b38cc": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "753289cceb9f612a": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "8968ce53ffb79d5a": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "5dcf88ffdab013cd": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "119f46437d89f410": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "a9b925fb02ca4711": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "4e72c0ac09bd5349": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "33ad7317051efa11": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "86b83f08a873686c": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "b98861713e3d2e4a": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "70c39f45550c2ad0": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "61bf2eb9528d8c83": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "435b875201811102": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "9a6d4eeb93e9dd30": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "c86ac966dd8bf62d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "13caa7587e0f645a": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "73f3894a1f22f138": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 1
+    },
+    "94ddb95be44a2320": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 2
+    },
+    "ea11db12c1d41a99": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 3
+    },
+    "1f554be22dd61012": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "925d9dbe747d71ef": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "f1fc6b62d147cd08": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "34047754554a28a1": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "a86c20bd50d3a201": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "bc4401ff43662f76": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "8ef6a3e4664a6faa": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "280276e65cb31ded": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "d70adc304046a907": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "e2fc331c52534682": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "93f2f681d50560b7": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "195d02ba2a6717cb": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "94e460db9408690a": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "e6226d129e23948d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "6b476d0056463ac9": {
+      "split": "train",
+      "total_nodules": 12,
+      "conflict_nodules": 1
+    },
+    "c0ba6064da6b98fe": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "b76034e06eb6ab8b": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "181fc5b2f66229a5": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "a01bb3db7d229665": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "94cf16427544d330": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "ce9e3c102bef7a8f": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "a83729394aad8c7d": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "87bbaaeb6d4df1bd": {
+      "split": "cal",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "6aa8ef125fa3b262": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "d580cd2a2e1e84dc": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "49f42ee0df057b43": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "491bd7aea039b492": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "5edeeded7747b811": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "a6b46641d7ff8405": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "667d8ead3960f290": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "fc81df0a0bebd1b5": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "90a36f8357d4a976": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "ae9690fda08908a1": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "03c78b58495b4f6e": {
+      "split": "train",
+      "total_nodules": 10,
+      "conflict_nodules": 1
+    },
+    "330d918c4c114c6f": {
+      "split": "cal",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "c0b66120a3f49986": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "cd6599d2a96dfc5b": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "9b3da032e4a0a04d": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "b0a5fc4cabbcbf49": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "48737705c3c577d7": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "36856c5bf4357723": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "a52b967e82eff3e7": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "6ea0069d6e72aa16": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "bc102e2d5970d8b0": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "8fbc00878e2090d5": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "f55b63983b5b77c8": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "0cb2d4383bf3a0de": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "03620f57f1a90aa9": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "b37a193dd4267f08": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "d2c5bbd6f98376a8": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "16be76d9d5ccf6dd": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "8701a0cf2e3a04f5": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "4e5ded54c8a28ff4": {
+      "split": "cal",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "61683d5127bc6c28": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "923c41a8a49b4d87": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "b0091cfebb719cb3": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 2
+    },
+    "7a26a3a5244756e9": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "4f44f1d923f396c0": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 1
+    },
+    "7f88dae0e2e60ac2": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "17b5fa5d6e363aa6": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 2
+    },
+    "d1c38a9f9b329790": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "405594eea7bd0b5b": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "a8b46511e61b93fd": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "6c75366f410194de": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "a92873b1f9db40f4": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "1c127d044c234ae0": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "de570acf6c77c95e": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "7d43d4b2c79984d5": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 4
+    },
+    "b4431b9a6d43f46c": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "290e614a5f1c5a05": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "bb513733b782ba01": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "eaacc0b42e302c84": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "33e5b164c3a20be4": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "e6be3a1126158d6f": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "fb8d0f79be72549e": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "a7c87d904f77f158": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "e8b32fed9e816b56": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "6591396118e147b8": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "d7499c2f5bcce559": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "50f9f27355b0926e": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "4f9a5cb44f79cfe2": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "8b0b089cdacb665c": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "2a448952e86f3aad": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "1375b7322833b8a6": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "8dd80ecb9e0586b4": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "29d766ee3a30f4e8": {
+      "split": "cal",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "ebb56b15451ab117": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "1984f27d4c2acac6": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "750d07e347e60d69": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "eeb88eab06da16cf": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "0fb0b1745afbb7a9": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "a81687db391be6b8": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "023a3056675d8899": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "d56d542acf6c15fb": {
+      "split": "test",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "da17df231454a9b9": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "510e96e106a69f5b": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "3e11be02a046c307": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "85c68ce3c047b1aa": {
+      "split": "train",
+      "total_nodules": 13,
+      "conflict_nodules": 0
+    },
+    "cc42316d78b6a22b": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "b46227d9f7b91d55": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "dc27f680ecc8d08c": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "1b14104ea2692f29": {
+      "split": "train",
+      "total_nodules": 10,
+      "conflict_nodules": 1
+    },
+    "fd1863671d431bfd": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "97ea31fa386366f4": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 2
+    },
+    "4faf57b91d7005fc": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "fc24890efbf243d1": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "d49757b7d4cacff1": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "fedebcc0c7ba0535": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "ba1bf49567ed4f41": {
+      "split": "test",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "4de8985cb85e11f2": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "862bcda4f174109e": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "0f56cfc8886a8276": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "6e736fc37b04bdff": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "c928e0c27444ae0d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "33bc98106fd34b72": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "366478b78689e86c": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "c1c462d590b26641": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "092755c7046be663": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "0343be91a257e809": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "a9aa1c11e36483a9": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "19089c702bbbebed": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "bcdbf0ed9a597e96": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "aab2687e9dbf73a0": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "2cf3d8a1251c075f": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "4d5cec7326d8079c": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "36a8fa96fc4965d1": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "d17e96d90b2a6337": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "2ce38f6fdacda55f": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "c293fb4ffe914219": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "3ea9e2dbd8c0c03f": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 2
+    },
+    "9c1fda650b9fcd94": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "0d36311710673688": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "1a64209834dce547": {
+      "split": "test",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "068417bddbf07a66": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 2
+    },
+    "888d7e34e22cf5f9": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "27917fdb70fb1efc": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "6ba97011c7877f3f": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "60d3571d58351272": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "e3411c87d3201ac6": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "3c1f060305af60ae": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "4c038194e8a1402c": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "84ba9f777462a769": {
+      "split": "test",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "87a6aa7efe85e30b": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "d48ce26a597139f1": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "fa2911534a88adc4": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "afa7121e1114093f": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "dad9c6f5ec3bf8c4": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "824bcb26a1f82a27": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 3
+    },
+    "5207cd84a297f767": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "7a2ede8b54c91541": {
+      "split": "cal",
+      "total_nodules": 9,
+      "conflict_nodules": 3
+    },
+    "5aaba306f227a672": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "578ceb60b2b13d18": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 2
+    },
+    "8e46eb29266a190d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "e05e0077d927b75d": {
+      "split": "test",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "2cdc288d2eb9d504": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "a628253e4dda9206": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "6fd97fc2019a6b75": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "d7876c57a1d71f94": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "904daf899f31db9e": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "c3e3c0f20e679a98": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "c200a709b0a59cac": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 2
+    },
+    "c4682f664a6a1b3b": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 2
+    },
+    "6c7ab7c27c04b641": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "48bc900e7b448a58": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "b378fb8dde0f9169": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "51b92f34082c0062": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "2d1b1098d1bf2406": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "5738eba2f42e73ee": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "ca17e17792f46dd1": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "3085c93c33f4a915": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "bc2703840f9eb201": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "230d9c53caf94d48": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "9f2bcb93ed9de68f": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "79e56506fbad2938": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "d52922bcec6b4c02": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "c70fee13d7c41a35": {
+      "split": "test",
+      "total_nodules": 6,
+      "conflict_nodules": 3
+    },
+    "09f404f3bb12f74e": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "b3397c0782215cd6": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "77432be1fe315915": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "03eb8a4d3081ffd5": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "282dca2208c4b4e3": {
+      "split": "test",
+      "total_nodules": 7,
+      "conflict_nodules": 1
+    },
+    "4942c0ac229f2f98": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "04ed962ef06efd08": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "096ca0d98b3e2548": {
+      "split": "cal",
+      "total_nodules": 4,
+      "conflict_nodules": 2
+    },
+    "9fe66127a7c35078": {
+      "split": "test",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "0aee33f9ae64a2bf": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "0ef085c03ea4a68d": {
+      "split": "train",
+      "total_nodules": 9,
+      "conflict_nodules": 1
+    },
+    "04772b983265198e": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "b92ae411b7df05b2": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 1
+    },
+    "9c483ac7db2a867a": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "11bf5c2660e44605": {
+      "split": "cal",
+      "total_nodules": 10,
+      "conflict_nodules": 1
+    },
+    "121a6bbcc37989f1": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "567c2f8c788dd467": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "17c388263d5d639c": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "eb1ef26dcd634aac": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "8663b8878f77e002": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "46d98c149e47db54": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "3d3b58f727f3a638": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "d934c1c80c60f816": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 1
+    },
+    "1ba89e6ba0f271bd": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "dc2343a6aefc88f5": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "4f93026f99881f52": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "9b6b3f0b49f54fff": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "cdb0949beb1cba77": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "5e418c3800ebc730": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "1c4a8b304c79898c": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "59f4835b78214d69": {
+      "split": "cal",
+      "total_nodules": 4,
+      "conflict_nodules": 3
+    },
+    "8e3eb5aad54b22cd": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "1ddea71b779021ff": {
+      "split": "test",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "4b555d1c0f1003d5": {
+      "split": "test",
+      "total_nodules": 10,
+      "conflict_nodules": 5
+    },
+    "9becd015187a84fb": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "ea1c3d4a04e635f9": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "13fc37b848660f3f": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "8f6038c7197428ba": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "98fa9d95da756a95": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "9e3e13d733498eed": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "ceab2c32bd10c489": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "f6d2f5581254c674": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "f62b506909ed0d3a": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "2137a94d8271d744": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "e6029bb606e1dbe2": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "ac97333a783345c4": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "457c8bddd6b9e969": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "8ac1905767c3204c": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "73ab9904a9cfa328": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "b46a2eb886753b32": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 3
+    },
+    "fca63888a8abdffb": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "9f9864a9b7389496": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "eff4c2c184418c50": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "c215f0999ce52a69": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 2
+    },
+    "655f18113fe9bac2": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "8498955aeb39fae0": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "52f797773acf97f6": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "734fa6cc7b307adb": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "918da80e29047cd5": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "fe5f644d45c86873": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "278df5c962e51131": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "97854527ac5e9569": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "f2c54024d33aadc5": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "9ba2f8cb2f090d00": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "718ef9f3d9dfb983": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "a11c8131d907896a": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "4d4779a9d94efc92": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "be40b0add15c19f3": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "856f3ed4b4d3f4a0": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "9e9ff991a06968c9": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "c71d16358efa0d9f": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "42be0959da6a173c": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "aef34e616e90269e": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 3
+    },
+    "fedba372a5235a95": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "2e1153bea331c55a": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "eb719f2f9591d73e": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "c36482ac516f3434": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 2
+    },
+    "9743381a2881b597": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "25f646e529578166": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "7192ceeec66a8996": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "0fc90ca54e0b0c7a": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "a148c73884cc1e13": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "b54fc11768d7472f": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "4df9bd6685b14efb": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "5b019d9cee2e7fc3": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "bc856bfacda20e03": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "56f212989ddb2b19": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "3c53e40ebdf322cb": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "58018217823d0765": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "07f92ffe06b01d3d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "7f69e273a7a12059": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "bc60a08e9910008e": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "b0ab7d08adb9cd81": {
+      "split": "cal",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "35f094fff01c5ac4": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "f2dc3d7264e05084": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "34eab48dfea13a12": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "6cfd3abd52d0c768": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "db92e0d4a1ff1bed": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "3b8e71e4edbb3509": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "5114edf82e77ef85": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 2
+    },
+    "6329eb08e91d2911": {
+      "split": "test",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "2d0e8f15ca747e4b": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "9713ed78d1093146": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "d38c6f95adfafadd": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "af3c3acb611ba035": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "27ca5adff3efa528": {
+      "split": "test",
+      "total_nodules": 9,
+      "conflict_nodules": 0
+    },
+    "3cf88d73beba7e45": {
+      "split": "cal",
+      "total_nodules": 23,
+      "conflict_nodules": 2
+    },
+    "01a7ca6f88ebff1b": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "9641761a6b90372d": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "275a1ef6ecfda8c4": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 1
+    },
+    "0be25acbeb56c50e": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "218bfa754a167359": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "60a270ac0ba74808": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "a0b93c71d266b9ed": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "deecacfc2f7b805d": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "6e4a6ba7611dd306": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "084e027d46028225": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "1909ad659373a6ff": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "fa67d75a17defe2f": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "b1a50a082f9d2926": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "8fa2222430d372dc": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "69c5a4f17d78e6c2": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "d3f66d14d4648f9f": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "4f6c3ac95ff35c05": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "d5e5938ec1a7eaec": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "caf17f4d9f33d9f5": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "66782a031853397f": {
+      "split": "test",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "e8dd4ec1d38ab124": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "10066054ccb0377b": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "aa3c8c23be747161": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "439429fd2375e0e9": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "1ea6d1aa8e1387f1": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "a86db4b91b691a61": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "0d91283a5e5f033f": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "3148942bc8ef9e1b": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "c73905be13bd1e88": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "f546ff7035191739": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "4d0907114bf0c0dd": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "14767325889f5771": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "b51b1abb133589e7": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 2
+    },
+    "3a78a1e8297aeb70": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "8f28fbfb2ec56271": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "c179ede2169be2ad": {
+      "split": "test",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "52d12af4461879c6": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "2a0f21789ce6cbdd": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "a4ddd30c748d0d11": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "03b3c054eed3a478": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "ed8e5067f033d476": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "3f98bc25200b4be9": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "89a870fe9116ec9d": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "aa7b717970f3d3cd": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "4947cf66578d3617": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "113bf544a1d2eb6b": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "d83e29a1541a4353": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "22081bc325fced2b": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "8be8eb7028943b5c": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "3ad9d5261855b6a1": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "53f1276fd05fc7da": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "6f3ba9f933d12131": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "3968e0e86a9360d7": {
+      "split": "train",
+      "total_nodules": 11,
+      "conflict_nodules": 1
+    },
+    "fd2f93336ed2cd72": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "66ca5a0c1f69dc86": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "e070e60dbc520918": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "4be8d3a7fd9b29d5": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 1
+    },
+    "bf75d8f7f1c4951e": {
+      "split": "test",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "7eec9db6b9eb1ec8": {
+      "split": "cal",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "bd80d8301e89b752": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "9f85766fad696c11": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "e9779204fea8c206": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "d6ee440fcf890bce": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "805277a2a0d4aae6": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "ef552b6b1e1ba54f": {
+      "split": "train",
+      "total_nodules": 11,
+      "conflict_nodules": 0
+    },
+    "4fc2b0b3205c6f32": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "8cfc1d7b30ffc815": {
+      "split": "cal",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "496a1492639ff7c4": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "26b5dcd284888f1a": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "faeaceba33536fe5": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "0e2ab404e648ede2": {
+      "split": "test",
+      "total_nodules": 8,
+      "conflict_nodules": 1
+    },
+    "eb709281e37e6a40": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "e8bb486b99a23d10": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "ac4150700d14e7a5": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "d24be0c0bc1d7615": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "2c336c8c0dac5224": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "b3a19af1a505dbd0": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "d2d6267c13c69f00": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "d2f9613a2076a3c3": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "446c6150bd5537d8": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "6d8e18c48e4bbe95": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "c64858d9cd09293d": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "1fb1f110767929d4": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "33f8215ee8cc9ec3": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "687469aeffe2c73a": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "98d5d6f159dfa792": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "946552771f3cbf03": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "e182a3db9546e7f6": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "5fab5fc13b122622": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "3e865432e6abb3a6": {
+      "split": "test",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "a8ed6aee6daeee94": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "6c6347ce2d3f8da2": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "b8ce8cf8e0155b02": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "7fe9b17e29a54642": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "daa1dd695b834254": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "5691d31883782a9d": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "5c86ab45fe1fbb4f": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "46e2189bd8fcaeb5": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "5ddf44b5312efbd5": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "9aa8165057d078a6": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "e141eb342266c499": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "42fe7d92d95422a1": {
+      "split": "train",
+      "total_nodules": 21,
+      "conflict_nodules": 5
+    },
+    "b6303b917ea86569": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "123cb0798bb0b56e": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "0fd5a67cb63f1fb8": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "7adb28404d318c16": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "0a367eac4260e291": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "ca61c481f8756e10": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "122e63247622977c": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "5f3b7c802919102d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "4e9543c73424b9b3": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "a06155deefee3253": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "8d5e8c39fe505f4c": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "69c3f374f07f60f0": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "a8efb61425bda6fd": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "760534cea0aa0e93": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "b468446401903307": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 2
+    },
+    "1e15a84cae3b412d": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 1
+    },
+    "f5b8e7354fb7467d": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "0fd90c67f5a79862": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "bbfb8f43ea213447": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "9523c60ff1812dfe": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "3fd69eedb2264ee0": {
+      "split": "test",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "d3afa54bfe06ab6e": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "8273d9964df6de06": {
+      "split": "test",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "d9474223c777507b": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "df268739cf90745f": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "d6274e94a456315e": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "2e7e48de2232ba25": {
+      "split": "test",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "334c4b19fe1fdd8a": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "5c1afddc5d63c7ad": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "9c837c6fc8cf372d": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "90bb27343d5fc3e2": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "f793bdd435bb3f41": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "eb6a60de8d88a064": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "7cda9872f698adae": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "3976d474e05549ea": {
+      "split": "cal",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "f00c6e9e08718a6c": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 2
+    },
+    "cabc0b56e43cc9af": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "37ca15e4b779577b": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "84a3dffe96f72abf": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "59235aff5a596980": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "1d833fed129370bf": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "d38a14b9673a43cb": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "f8d2e5b9cd9071cc": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "a83e8bb879f580f3": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "a6f638e7134f71ce": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "7e01d257f832c37c": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "dc42d3ed2fb3ab8d": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 2
+    },
+    "c1edd95d2a87cd0c": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "c51a26a04afaf6f9": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "00f738da54b0e358": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "6183bb463b9bacf1": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "b2b6a6911cb64518": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "94a6c20bd482cfce": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "b25976f6ecb0b86b": {
+      "split": "cal",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "28899863eded1d3a": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "3053694f5482acc7": {
+      "split": "train",
+      "total_nodules": 14,
+      "conflict_nodules": 0
+    },
+    "3c87b3b58b4d95fe": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "1ac18a0876cd35e9": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "0b7d4b8573e64672": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "da775479f7cbc645": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "bb8c167e5543b64c": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "390b758bf947e9d5": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "c37db951cc86f55d": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 2
+    },
+    "6eaa053ac39e97e9": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "577b7f851deed19a": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 3
+    },
+    "258dc70d9a937570": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "248f442dbd1dbc49": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "ef1bf599ebc455f8": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "74bbc3b82a895d00": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "69a954dfeafb910a": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "f345aaefc476db42": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "f5b92b9acdce2e10": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "6dd0de2427057247": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "5a23bb239b3ba749": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "5c2ab41cdafc5d43": {
+      "split": "cal",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "f5b2b5b76293acae": {
+      "split": "train",
+      "total_nodules": 9,
+      "conflict_nodules": 1
+    },
+    "0d64bc56b1d05658": {
+      "split": "cal",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "ff7f16d80746fcde": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "16f320dd10044d10": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "2613fa707a6142d5": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "173f8141f2ad5183": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "fcb315388d1895d9": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "5e6ca5ca033fe11a": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "0ae83409311a5cbb": {
+      "split": "test",
+      "total_nodules": 12,
+      "conflict_nodules": 1
+    },
+    "7c34ab14fc8a3144": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "2aaaf189f84815cf": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "fff202a90f2ffe41": {
+      "split": "cal",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "106e6b6ba2942c0c": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "40ea583e5d58da2a": {
+      "split": "cal",
+      "total_nodules": 11,
+      "conflict_nodules": 4
+    },
+    "599438887ff7f042": {
+      "split": "cal",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "c9b11abca5c221a5": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "d6c616e9b01cfaec": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "4097ec598973392b": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "acbc65bda2777d66": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "9e493120c1edba05": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "cf9e70e90403be32": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "6f03599b7ba98147": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "3a6923a5258a4639": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "fb23860923b8d081": {
+      "split": "train",
+      "total_nodules": 9,
+      "conflict_nodules": 0
+    },
+    "a52aa9fce8da80ee": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "60d8e1bbbfbf4faf": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "85f2661ee5e8e229": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "b8dba4cf58759050": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "4bb78d475e53661c": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "e86ff5e34920bc9f": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "ec6a9a68d55cf131": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "b93a69708f0be43f": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "886a2ff541e258d6": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 2
+    },
+    "722b354f6c3aa579": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "7619f9477b67e398": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "1ff7f35a64cee129": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "95f8ed9cdc1a54ee": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "b8695e5a67c97cb0": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "5b5780b4539069b7": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "d274a9ffc47cb161": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "c3169c807d6226f5": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "d59197a21ebc55d9": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "e1298a70d2105eb2": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "91cb06dc9d01c48c": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "4b19b1cc1ab3b042": {
+      "split": "train",
+      "total_nodules": 13,
+      "conflict_nodules": 1
+    },
+    "bdfa2a56be70958a": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "cf04e396fe98e7bc": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "644fc96545ed7abb": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "aae4dad049286839": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 2
+    },
+    "88c57fb3b21bbef1": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "addf1096dae85d5a": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "0dd658ba204299fc": {
+      "split": "cal",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "7bf296d5c405b25e": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "49efa3dcb82b082d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "d42621476bcc2f49": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "88c2b71ecfb1dcff": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "b6251d2e4bd33072": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "8f885037884d57ec": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "e7228a4069a5d637": {
+      "split": "test",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "7d5845b10d5b836a": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "56d31b9528e569d6": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "8af6ec4410729496": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "15c9d2f77821b842": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "a4b9d339aee766e9": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "2edbe0c476b29e94": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "8dae81c865efb6cf": {
+      "split": "cal",
+      "total_nodules": 4,
+      "conflict_nodules": 2
+    },
+    "3be8dde80f3a3bd7": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "bb99017f19ab1747": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "b572712f45c26bbd": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "73d57e674313d68c": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "478ff09cf72745c3": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "c6f01ab9a6923103": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "a6c522f0f6592f1f": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "d03db947888cb9f2": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 2
+    },
+    "f85034f8dbc31534": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "b8f01868453eae4d": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "3451c5fea4aab3f3": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 2
+    },
+    "0d3d8a2f180174ab": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "33dc81336cb9101b": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "89248ecb5f941825": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "516ade4c1398718a": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "bb57f0778644ac91": {
+      "split": "cal",
+      "total_nodules": 8,
+      "conflict_nodules": 0
+    },
+    "6eb59e587591c7d5": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "6ac1522c0677d5a4": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "4a34fde2a523b0c7": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "6816741ed50824b2": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "4c6ce502778ee691": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "ec6d5e14fe4ae2ad": {
+      "split": "cal",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "4ca74a23aadd5927": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "5e3f1f22a58f5282": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "ac4d025213fea217": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "46da85bb81f07cd9": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "29b4c999e3d1b3d7": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "9c28496f81ba4aa5": {
+      "split": "train",
+      "total_nodules": 16,
+      "conflict_nodules": 0
+    },
+    "dffe9c38cc25c558": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "723bcd855296b253": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "d7fa0d9abf427d7f": {
+      "split": "train",
+      "total_nodules": 13,
+      "conflict_nodules": 1
+    },
+    "3bba3adcfe3365ea": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "59c03d785ce5e1c1": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 2
+    },
+    "022cc54d957b5b0a": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "e67b497134baba31": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "383fe7e455407781": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "02768ce8f2c1adf1": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "9c8fa11a68297cf5": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "392deb817cf42c5c": {
+      "split": "train",
+      "total_nodules": 9,
+      "conflict_nodules": 1
+    },
+    "ef68ed6548014984": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 2
+    },
+    "908d215a89b94a25": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "298c6611e44c9f8b": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "5bea5b16e787b2a8": {
+      "split": "train",
+      "total_nodules": 11,
+      "conflict_nodules": 1
+    },
+    "7fb0afefb70f106f": {
+      "split": "test",
+      "total_nodules": 9,
+      "conflict_nodules": 1
+    },
+    "0b8e935f915deee0": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "b6e2eb355484350f": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "d7967cc7c2c801de": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "1e8103b4a007c30f": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "36fbdca9d923d180": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "97f110bbd558af5f": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "fb55750dde0278e2": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "0e760c7a649b9f9c": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 1
+    },
+    "ecad30d6171af032": {
+      "split": "cal",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "4f6468f746810c58": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "19f5408f4e6acc67": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "776ef591133510dd": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "4973f30d3e164534": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "a41f3bf7dfeedef4": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "c54b6e813eff53df": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "a0464c7475b99ef9": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "6dc196773778f5cc": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "6dd6418bb3ba28a5": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "d61cfaf35d2cf8d6": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "b1ff095044c36189": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "297a7adacb3bf5d2": {
+      "split": "test",
+      "total_nodules": 4,
+      "conflict_nodules": 3
+    },
+    "2ae81d61dd8d6a56": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "4a994a72f3712450": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "07c01f456533e6b2": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "f7f23de7417ea680": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "9e3c60d7c423fd1c": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "590364de487f3147": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "1443e7389bd39896": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "b1ac9c29baaf626f": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "27f1cfe294ed66a3": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "dcc61e01df041a9f": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "347cdea47172fe89": {
+      "split": "test",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "60c26a8930b9c42f": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "a101bff5eb6e59ec": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "a11361e10e56c78f": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "e28399d2cf5869a8": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "b82cf746910a8a7b": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "2663ce37b64cbab5": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "0098408d41ed82f5": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "12249a29d9f75c88": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "3cfa5213c5f8829b": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "918ea5600d63008f": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "97316e74fb1bdce7": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "5398e07afbf6ac14": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "1489b205616f8d8e": {
+      "split": "cal",
+      "total_nodules": 9,
+      "conflict_nodules": 0
+    },
+    "346d793ae6f2219f": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "2788a4e5718954fa": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "820641a54a094c0c": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "17c2befdeb82d3e1": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "17615792d91983d0": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 2
+    },
+    "d7f9fadadd6e5692": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "8c6012f336ee945d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "098e13d3f4bfa1e9": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "4cf0e110e20dfc5f": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "ad2814f849bb8e1a": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "aadc063997730b0b": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "460d931a97e5e7ba": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "aa4130867089d8ed": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "3b9bc56cb0cbfa66": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "63ced49d37895a4a": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "327fef747c7f694c": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "0b41028625e253b1": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 1
+    },
+    "ff780f68edb4d9a5": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "0ef459427720a5ce": {
+      "split": "train",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "94ac6f5227c28765": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "c6246b1fffd233b4": {
+      "split": "cal",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "53f8e8bc2440ca9e": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "fb707167af235d4f": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "0f1de3b8ae9d5bc3": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "557e8a4e96bed6e3": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "e2be2928d55abed2": {
+      "split": "cal",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "c7841698634fde16": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "ca08ba2bf21dc654": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "aa10156bc4b3b1be": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "9900d889b7e1bd1e": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "c1a419167ab2ae25": {
+      "split": "train",
+      "total_nodules": 7,
+      "conflict_nodules": 1
+    },
+    "37f553295c99f2d0": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "6408773e287d4796": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "89f2d4732b0c640e": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "a9c19a0c756e8968": {
+      "split": "test",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "fc7334d711481e68": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "fc2ea68cb6d602d0": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "8f6e32c51885d51f": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "64e17ed2055d77aa": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "6925fc4f989314f8": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "7daefb0774b582ed": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "e69d1400c9b9944c": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "826fb39b9ded5097": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "63ae371bad890fe9": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "f2ca539843aa151e": {
+      "split": "train",
+      "total_nodules": 10,
+      "conflict_nodules": 0
+    },
+    "f71c5533bea34aed": {
+      "split": "cal",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "3aa68594373c3c68": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "553eb64a404ebd1f": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "6a6d8c985adc6fea": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "5c3bbbc4c7018d5e": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "50bf01545487a9e1": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "897294349b76f500": {
+      "split": "test",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "d010155ace72bf97": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "e813d4e63e4cc413": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "c6743f5d3078f5a9": {
+      "split": "test",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "e41481272277981c": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "0df6490864b37db6": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "7d67a2ccc428f870": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "fdfb45cde4c92db2": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "991e4faffc96a6c9": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "2786d17f6b6a187e": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "2dc8feb92fb3781e": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 2
+    },
+    "44da82895a274de4": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "c8178b361d983d33": {
+      "split": "test",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "91eaea0857fa5110": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "ebc48e16fae7543d": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "1fda5a1dd058619b": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "570e24b3d32ad84e": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "252395683006b08c": {
+      "split": "cal",
+      "total_nodules": 3,
+      "conflict_nodules": 1
+    },
+    "95690f554cc3f288": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "346f0d842c9bdb0a": {
+      "split": "train",
+      "total_nodules": 3,
+      "conflict_nodules": 0
+    },
+    "129170eb1474a5df": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "6a4815a963fd9306": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "22a749c0ec018cb9": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 1
+    },
+    "b2ba208b00e7c272": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "27421419307946e2": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "1f67486c4a91cb3d": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "66acefb9407a6dc1": {
+      "split": "cal",
+      "total_nodules": 6,
+      "conflict_nodules": 2
+    },
+    "2149f605cd2f983a": {
+      "split": "train",
+      "total_nodules": 0,
+      "conflict_nodules": 0
+    },
+    "4c972d41f1f3ecb6": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 0
+    },
+    "5089a1b2e74082c1": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "b00b5e18ca01e4ee": {
+      "split": "train",
+      "total_nodules": 10,
+      "conflict_nodules": 4
+    },
+    "60f33fb02b33b53e": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 0
+    },
+    "c98d32de0caca268": {
+      "split": "train",
+      "total_nodules": 5,
+      "conflict_nodules": 1
+    },
+    "b6eff23d1b47735e": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "5fc3dc89f54e68f7": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 2
+    },
+    "b85c8db1b57d25ca": {
+      "split": "train",
+      "total_nodules": 8,
+      "conflict_nodules": 1
+    },
+    "7df7c75b8d078374": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 0
+    },
+    "cbbc837a4d0a0af0": {
+      "split": "test",
+      "total_nodules": 7,
+      "conflict_nodules": 0
+    },
+    "841d189474ebdfb6": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "090c28445fe43dea": {
+      "split": "train",
+      "total_nodules": 2,
+      "conflict_nodules": 1
+    },
+    "353628b2bf9dfe2b": {
+      "split": "test",
+      "total_nodules": 6,
+      "conflict_nodules": 0
+    },
+    "71101844d2ab07e5": {
+      "split": "cal",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "0ce573c20a6b740e": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    },
+    "1313b8860f7a4b29": {
+      "split": "train",
+      "total_nodules": 4,
+      "conflict_nodules": 1
+    },
+    "98d80c8e6d3a5037": {
+      "split": "train",
+      "total_nodules": 1,
+      "conflict_nodules": 0
+    }
+  }
+}

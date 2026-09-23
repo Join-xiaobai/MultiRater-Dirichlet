@@ -1,0 +1,119 @@
+{
+  "date": "N/A",
+  "feature_ablations": {
+    "Full_17_Features": {
+      "n_features": 17,
+      "Conflict_AUROC": 0.745,
+      "High_Disagree_AUROC": 0.8328,
+      "Rating_MSE": 0.5514,
+      "ECE": 0.1122,
+      "Wasserstein_EMD": 0.3346
+    },
+    "W/o_Margin_Spiculation": {
+      "n_features": 11,
+      "Conflict_AUROC": 0.7404,
+      "High_Disagree_AUROC": 0.815,
+      "Rating_MSE": 0.5475,
+      "ECE": 0.1213,
+      "Wasserstein_EMD": 0.3473
+    },
+    "W/o_Internal_Texture": {
+      "n_features": 14,
+      "Conflict_AUROC": 0.7558,
+      "High_Disagree_AUROC": 0.8446,
+      "Rating_MSE": 0.5556,
+      "ECE": 0.129,
+      "Wasserstein_EMD": 0.3647
+    },
+    "W/o_Size_Volume": {
+      "n_features": 13,
+      "Conflict_AUROC": 0.7111,
+      "High_Disagree_AUROC": 0.7987,
+      "Rating_MSE": 0.5664,
+      "ECE": 0.1185,
+      "Wasserstein_EMD": 0.3499
+    },
+    "Means_Only_No_Std": {
+      "n_features": 10,
+      "Conflict_AUROC": 0.7776,
+      "High_Disagree_AUROC": 0.8174,
+      "Rating_MSE": 0.5277,
+      "ECE": 0.2126,
+      "Wasserstein_EMD": 0.5724
+    },
+    "Size_Only": {
+      "n_features": 2,
+      "Conflict_AUROC": 0.7497,
+      "High_Disagree_AUROC": 0.7818,
+      "Rating_MSE": 0.8267,
+      "ECE": 0.2958,
+      "Wasserstein_EMD": 0.6465
+    }
+  },
+  "subgroup_analysis": {
+    "Size: Small (<6 mm)": {
+      "N": 101,
+      "Conflict_Prevalence": 0.0198,
+      "Conflict_AUROC": 0.798,
+      "High_Disagree_AUROC": 0.8551,
+      "ECE": 0.1272,
+      "Rating_MSE": 0.3826
+    },
+    "Size: Intermediate (6-10 mm)": {
+      "N": 260,
+      "Conflict_Prevalence": 0.1538,
+      "Conflict_AUROC": 0.7163,
+      "High_Disagree_AUROC": 0.776,
+      "ECE": 0.112,
+      "Rating_MSE": 0.3353
+    },
+    "Size: Large (>10 mm)": {
+      "N": 146,
+      "Conflict_Prevalence": 0.3014,
+      "Conflict_AUROC": 0.6502,
+      "High_Disagree_AUROC": 0.8057,
+      "ECE": 0.1054,
+      "Rating_MSE": 1.0531
+    },
+    "Texture: Non-solid / GGN (<=2.5)": {
+      "N": 38,
+      "Conflict_Prevalence": 0.0789,
+      "Conflict_AUROC": 0.7143,
+      "High_Disagree_AUROC": 0.8958,
+      "ECE": 0.0812,
+      "Rating_MSE": 0.3956
+    },
+    "Texture: Part-solid (2.5-4.5)": {
+      "N": 90,
+      "Conflict_Prevalence": 0.0889,
+      "Conflict_AUROC": 0.6601,
+      "High_Disagree_AUROC": 0.782,
+      "ECE": 0.1096,
+      "Rating_MSE": 0.4799
+    },
+    "Texture: Solid (>=4.5)": {
+      "N": 379,
+      "Conflict_Prevalence": 0.1979,
+      "Conflict_AUROC": 0.7431,
+      "High_Disagree_AUROC": 0.836,
+      "ECE": 0.1229,
+      "Rating_MSE": 0.584
+    },
+    "Raters: 1-2 Readers": {
+      "N": 226,
+      "Conflict_Prevalence": 0.0177,
+      "Conflict_AUROC": 0.8198,
+      "High_Disagree_AUROC": 0.8376,
+      "ECE": 0.1489,
+      "Rating_MSE": 0.5155
+    },
+    "Raters: 3-4 Readers": {
+      "N": 281,
+      "Conflict_Prevalence": 0.2918,
+      "Conflict_AUROC": 0.5805,
+      "High_Disagree_AUROC": 0.7189,
+      "ECE": 0.0827,
+      "Rating_MSE": 0.5803
+    }
+  }
+}

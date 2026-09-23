@@ -1,0 +1,92 @@
+{
+  "Det-CE": {
+    "Rating_MSE": 0.2643,
+    "Pearson_r": 0.8359,
+    "ECE": 0.1465,
+    "Wasserstein_EMD": 0.498,
+    "Conflict_AUROC": 0.5426,
+    "High_Disagree_AUROC": 0.4878,
+    "Time_sec": 14.92
+  },
+  "Det-Reg": {
+    "Rating_MSE": 0.2613,
+    "Pearson_r": 0.8378,
+    "ECE": null,
+    "Wasserstein_EMD": null,
+    "Conflict_AUROC": 0.5,
+    "High_Disagree_AUROC": 0.5,
+    "Time_sec": 13.11
+  },
+  "Hetero-Gauss": {
+    "Rating_MSE": 0.2505,
+    "Pearson_r": 0.8453,
+    "ECE": 0.0444,
+    "Wasserstein_EMD": 0.5177,
+    "Conflict_AUROC": 0.7304,
+    "High_Disagree_AUROC": 0.8004,
+    "Time_sec": 16.16
+  },
+  "MultiRater-Ensemble": {
+    "Rating_MSE": 0.2447,
+    "Pearson_r": 0.8505,
+    "ECE": 0.419,
+    "Wasserstein_EMD": 0.5213,
+    "Conflict_AUROC": 0.437,
+    "High_Disagree_AUROC": 0.4373,
+    "Time_sec": 18.79
+  },
+  "LDL-Net": {
+    "Rating_MSE": 0.2575,
+    "Pearson_r": 0.8416,
+    "ECE": 0.0279,
+    "Wasserstein_EMD": 0.4958,
+    "Conflict_AUROC": 0.7683,
+    "High_Disagree_AUROC": 0.7775,
+    "Time_sec": 13.88
+  },
+  "DP-CrowdNet": {
+    "Rating_MSE": 0.2337,
+    "Pearson_r": 0.8581,
+    "ECE": 0.4096,
+    "Wasserstein_EMD": 0.5162,
+    "Conflict_AUROC": 0.4077,
+    "High_Disagree_AUROC": 0.3693,
+    "Time_sec": 22.45
+  },
+  "A3-Net": {
+    "Rating_MSE": 0.2551,
+    "Pearson_r": 0.8418,
+    "ECE": 0.1279,
+    "Wasserstein_EMD": 0.5008,
+    "Conflict_AUROC": 0.7403,
+    "High_Disagree_AUROC": 0.7264,
+    "Time_sec": 15.87
+  },
+  "UCE-Net": {
+    "Rating_MSE": 0.2523,
+    "Pearson_r": 0.8437,
+    "ECE": 0.1187,
+    "Wasserstein_EMD": 0.4815,
+    "Conflict_AUROC": 0.5692,
+    "High_Disagree_AUROC": 0.539,
+    "Time_sec": 18.7
+  },
+  "KAN-Nodule": {
+    "Rating_MSE": 0.271,
+    "Pearson_r": 0.8316,
+    "ECE": 0.051,
+    "Wasserstein_EMD": 0.4991,
+    "Conflict_AUROC": 0.7299,
+    "High_Disagree_AUROC": 0.7594,
+    "Time_sec": 19.74
+  },
+  "MultiRater-Dirichlet": {
+    "Rating_MSE": 0.2588,
+    "Pearson_r": 0.8471,
+    "ECE": 0.0808,
+    "Wasserstein_EMD": 0.5034,
+    "Conflict_AUROC": 0.7847,
+    "High_Disagree_AUROC": 0.8465,
+    "Time_sec": 16.67
+  }
+}
