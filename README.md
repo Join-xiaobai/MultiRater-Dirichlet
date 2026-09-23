@@ -22,7 +22,7 @@ Conventional medical artificial intelligence treats experienced radiologists as 
 4. **Human-AI Collaborative Triage**: Leverages Decision Curve Analysis (DCA) to demonstrate superior Standardized Net Triage Benefit across clinical referral thresholds ($p_t \\in [0.10, 0.50]$) by deferring the top 20% most contentious nodules to multidisciplinary tumor board review.
 
 <p align="center">
-  <img src="figures/fig1_study_framework.png" width="95%" alt="Study Framework"/>
+  <img src="figures/fig1_study_framework.png?raw=true" width="95%" alt="Study Framework"/>
 </p>
 
 ---
@@ -144,7 +144,7 @@ The framework introduces an uncertainty-gated human-AI triage strategy:
 - **MDT Deferral**: For the top 20% most contentious nodules (characterized by high epistemic uncertainty $U_i$), the system abstains and defers to multidisciplinary tumor board review.
 
 <p align="center">
-  <img src="figures/fig3_dca_net_benefit.png" width="60%" alt="Decision Curve Analysis"/>
+  <img src="figures/fig3_dca_net_benefit.png?raw=true" width="60%" alt="Decision Curve Analysis"/>
 </p>
 
 Decision Curve Analysis demonstrates that this collaborative strategy delivers superior Standardized Net Triage Benefit across all operational clinical referral thresholds ($p_t \in [0.10, 0.50]$) compared to "Refer All", "Refer None", or autonomous deterministic AI.
