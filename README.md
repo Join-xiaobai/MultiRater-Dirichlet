@@ -47,8 +47,8 @@ All evaluations are conducted on a strictly patient-disjoint independent test se
 | | KAN-adapted Baseline (*2024/2026*) | 0.2634 | 0.8371 | 0.0501 | 0.4963 | 0.7049 | 0.7309 |
 | **Proposed** | **MultiRater-Dirichlet (Ours)** | 0.2609 | 0.8439 | 0.0912 | 0.5017 | **0.7861** | **0.8440** |
 
-### Table 2: 3D Volumetric vs. Multimodal Architecture Ablation (Fixed Test Set, $N=507$)
-*Corresponds to Table 3 in manuscript. Isolates the representational impact of pure 3D voxel modeling vs. 17-D morphological prior fusion.*
+### Table 2: 3D Volumetric vs. Multimodal Architecture Ablation (3D Volumetric Test Subset, $N=33$)
+*Corresponds to Table 3 in manuscript. Evaluated on the dedicated patient-disjoint 3D volumetric test subset ($N=33$ nodules from subjects with extracted $32^3$ HU voxel cubes, across 161 total crops) to isolate the representational impact of pure 3D voxel modeling vs. 17-D morphological prior fusion.*
 
 | Architecture | Deployment Track | Rating MSE ↓ | Pearson $r$ ↑ | Conflict AUROC ↑ | Note / Key Clinical Insight |
 | :--- | :--- | :---: | :---: | :---: | :--- |
@@ -69,7 +69,9 @@ All evaluations are conducted on a strictly patient-disjoint independent test se
 | **MultiRater-Dirichlet (Ours)** | **0.7865 [0.7335, 0.8368]** | **0.8439 [0.8041, 0.8814]** | 0.0937 [0.0565, 0.1346] |
 | **Paired Gain $\Delta$** | **+0.2311 [0.1562, 0.3058]** | **+0.3627 [0.3036, 0.4244]** | — |
 
-*Note on Point Estimate vs. Bootstrap Mean: The proposed model achieves a point estimate Conflict AUROC of 0.7861 on the fixed test set (Table 1 above / Table 2 in paper), while the 1,000 patient-clustered bootstrap resampling distribution yields an empirical mean of 0.7865 with 95% CI [0.7335, 0.8368] (Table 3 above / Table 4 in paper).*
+*Note on Cohort Partitions & Model Configurations:
+- **Primary Benchmark (Table 1 & Table 3)**: Evaluated on the complete independent test set ($N=507$ nodules from 202 subjects) utilizing standardized 17-dimensional radiological morphometric features. On this cohort, the proposed MultiRater-Dirichlet model attains a single-run point estimate Conflict AUROC of 0.7861 (Table 1 above / Table 2 in paper) and an empirical bootstrap mean of 0.7865 with 95% CI [0.7335, 0.8368] across 1,000 patient-clustered paired resamplings (Table 3 above / Table 4 in paper).
+- **3D Volumetric Ablation (Table 2)**: Evaluated on the dedicated patient-disjoint 3D volumetric test subset ($N=33$ nodules with extracted $32^3$ HU voxel cubes, across 161 total crops) to interrogate whether pure 3D CNNs can infer disagreement end-to-end from voxel cubes alone (0.5463) versus with multimodal prior fusion (0.7731).*
 
 *Note on Feature Ablations (Table 6 in paper): Feature ablations are conducted under a standardized, un-scheduled baseline training protocol to maintain strictly controlled relative comparison across feature drops, establishing an un-tuned baseline anchor of 0.7450 for the Full 17 Features configuration.*
 
