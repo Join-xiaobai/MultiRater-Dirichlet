@@ -76,6 +76,11 @@ def generate_figure_2(outfile):
         mr[(mr['texture_mean'] > 2.5) & (mr['texture_mean'] < 4.5)]['malignancy_direct_conflict'].mean() * 100,
         mr[mr['texture_mean'] >= 4.5]['malignancy_direct_conflict'].mean() * 100
     ]
+    counts = [
+        (int(mr[mr['texture_mean'] <= 2.5]['malignancy_direct_conflict'].sum()), len(mr[mr['texture_mean'] <= 2.5])),
+        (int(mr[(mr['texture_mean'] > 2.5) & (mr['texture_mean'] < 4.5)]['malignancy_direct_conflict'].sum()), len(mr[(mr['texture_mean'] > 2.5) & (mr['texture_mean'] < 4.5)])),
+        (int(mr[mr['texture_mean'] >= 4.5]['malignancy_direct_conflict'].sum()), len(mr[mr['texture_mean'] >= 4.5]))
+    ]
     bars = ax2.bar(range(3), tex_conf, color=['#e74c3c', '#e67e22', '#3498db'], alpha=0.85, width=0.52, edgecolor='#333333', linewidth=0.7)
     ax2.set_title("(B) Clinical Conflict Rate vs Nodule Texture\n(Multi-Rated Cohort, $R \geq 2, N=1,880$)", fontsize=10.5, fontweight='bold', pad=6)
     ax2.set_ylabel("Direct Conflict Rate (%)", fontsize=10.5, fontweight='bold')
@@ -83,10 +88,10 @@ def generate_figure_2(outfile):
     ax2.set_xticks(range(3))
     ax2.set_xticklabels(tex_groups, fontsize=10.5, fontweight='bold')
     ax2.grid(axis='y', linestyle='--', alpha=0.5)
-    ax2.set_ylim(0, 30)
-    for bar in bars:
+    ax2.set_ylim(0, 33)
+    for bar, (c, n) in zip(bars, counts):
         yval = bar.get_height()
-        ax2.text(bar.get_x() + bar.get_width()/2.0, yval + 1.0, f"{yval:.1f}%", ha='center', va='bottom', fontsize=10.0, fontweight='bold')
+        ax2.text(bar.get_x() + bar.get_width()/2.0, yval + 0.8, f"{yval:.1f}%\n({c}/{n})", ha='center', va='bottom', fontsize=9.2, fontweight='bold')
 
     # Panel C: Disagreement Covariance Heatmap
     feats = [
