@@ -2,19 +2,26 @@
 """
 Benchmark 2024-2026 SOTA Models & Classical Baselines on LIDC-IDRI Multi-Rater Disagreement
 
+Standardized Evaluation Protocol:
+--------------------------------
+To isolate the core mathematical formulations of multi-annotator disagreement learning
+from confounding factors (such as differing 3D CNN backbone depth, parameter count,
+or spatial pretraining), all multi-rater methods in this benchmark are trained and
+evaluated on the standardized 17-dimensional radiological morphometric feature vector
+extracted from LIDC-IDRI nodules under identical patient-disjoint partitions (N=507 test).
 
 Models Evaluated:
 Panel A: Classical Multi-Rater & Deterministic Baselines
 1. Det-CE: Conventional Cross-Entropy on rounded consensus class
 2. Det-Reg: Deterministic Scalar MSE Regression
-3. Hetero-Gauss: Heteroscedastic Gaussian NLL
+3. Hetero-Gauss: Heteroscedastic Gaussian NLL (Kendall & Gal, NeurIPS 2017)
 4. MultiRater-Ensemble: 4-Head Reader Ensemble simulating distinct radiologists
 
 Panel B: Recent SOTA Multi-Rater Models (2024-2026)
 5. LDL-Net (MedIA 2024): Label Distribution Learning with Simplex KL Divergence
 6. DP-CrowdNet (CVPR 2024): Diversified & Personalized Multi-Rater Network
 7. A3-Net (CVPR 2025): Annotation Ambiguity Aware Network with Adaptive Loss
-8. UCE-Net : Uncertainty Co-Estimator Dual-Stream Network
+8. UCE-Net (2025): Uncertainty Co-Estimator Dual-Stream Network
 9. KAN-Nodule (2025/2026): Kolmogorov-Arnold Network with Learnable Spline Activations
 
 Panel C: Proposed Framework

@@ -29,22 +29,62 @@ Conventional medical artificial intelligence treats experienced radiologists as 
 
 ## 🔬 Benchmark Results
 
-Validated on a patient-disjoint independent test set of 202 subjects ($N=507$ nodules, including 360 multi-reader nodules with $R_i \\ge 2$) from the LIDC-IDRI multicenter cohort, across 1,000 paired bootstrap resamples:
+All evaluations are conducted on a strictly patient-disjoint independent test set of 202 subjects ($N=507$ nodules, including 360 multi-reader nodules with $R_i \ge 2$) from the LIDC-IDRI multicenter cohort.
 
-| Category | Model / Method | Conflict AUROC ↑ | Disagree AUROC ↑ | EMD (Wasserstein) ↓ | ECE Calibration ↓ |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| **Deterministic** | Det-CE (Conventional Baseline) | 0.5554 | 0.4812 | 0.8124 | 0.1248 |
-| | Det-Reg (Scalar MSE Regression) | 0.5042 | 0.4915 | 0.8410 | 0.2840 |
-| **Probabilistic** | Heteroscedastic Gaussian | 0.7392 | 0.8045 | 0.5120 | **0.0454** |
-| | Probabilistic U-Net / Ensemble | 0.7188 | 0.7634 | 0.4980 | 0.1385 |
-| **2024–2026 SOTA** | LDL-Net (*MedIA 2024*) | 0.7420 | 0.7810 | 0.3950 | 0.1150 |
-| | DP-CrowdNet (*CVPR 2024*) | 0.7290 | 0.7640 | 0.4420 | 0.1320 |
-| | A3-Net (*CVPR 2025*) | 0.7510 | 0.7920 | 0.3810 | 0.1080 |
-| | UCE-Net | 0.7640 | 0.8110 | 0.3620 | 0.0990 |
-| | KAN-adapted Baseline (*2024/2026*) | 0.7480 | 0.7890 | 0.3880 | 0.1120 |
-| **Proposed** | **Track 1: MultiRater-Dirichlet (3D CT-Only)** | 0.7731 | 0.8290 | 0.3540 | 0.1012 |
-| | **Track 2: Multimodal-Dirichlet (3D + Morph)** | **0.7865** | **0.8439** | **0.3421** | 0.0937 |
-| | **Paired Gain $\\Delta$ [95% CI]** | **+0.2311 [0.156, 0.306]** | **+0.3627 [0.304, 0.424]** | **-0.4703** | — |
+### Table 1: Multi-Rater & SOTA Benchmark (Fixed Test Set Point Estimates, $N=507$)
+*Corresponds to Table 2 in manuscript. Single point estimates evaluated across the fixed independent test cohort.*
+
+| Category | Model / Method | Rating MSE ↓ | Pearson $r$ ↑ | ECE Calibration ↓ | Wasserstein EMD ↓ | Conflict AUROC ↑ | High-Disagree AUROC ↑ |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Deterministic** | Det-CE (Conventional Baseline) | 0.2636 | 0.8360 | 0.1395 | 0.5004 | 0.5564 | 0.4820 |
+| | Det-Reg (Scalar MSE Regression) | 0.2626 | 0.8377 | — | — | 0.5000 | 0.5000 |
+| **Probabilistic** | Heteroscedastic Gaussian | 0.2461 | 0.8483 | 0.0454 | 0.5195 | 0.7392 | 0.8045 |
+| | MultiRater-Ensemble (4-Head) | 0.2420 | 0.8555 | 0.4096 | 0.5134 | 0.5230 | 0.4822 |
+| **2024–2026 SOTA** | LDL-Net (*MedIA 2024*) | 0.2512 | 0.8447 | **0.0109** | 0.4945 | 0.7709 | 0.7861 |
+| | DP-CrowdNet (*CVPR 2024*) | **0.2351** | **0.8555** | 0.4027 | 0.5067 | 0.5371 | 0.4877 |
+| | A3-Net (*CVPR 2025*) | 0.2590 | 0.8394 | 0.1485 | 0.4975 | 0.7413 | 0.7261 |
+| | UCE-Net (*2025*) | 0.2515 | 0.8443 | 0.1201 | **0.4788** | 0.5481 | 0.5280 |
+| | KAN-adapted Baseline (*2024/2026*) | 0.2634 | 0.8371 | 0.0501 | 0.4963 | 0.7049 | 0.7309 |
+| **Proposed** | **MultiRater-Dirichlet (Ours)** | 0.2609 | 0.8439 | 0.0912 | 0.5017 | **0.7861** | **0.8440** |
+
+### Table 2: 3D Volumetric vs. Multimodal Architecture Ablation (Fixed Test Set, $N=507$)
+*Corresponds to Table 3 in manuscript. Isolates the representational impact of pure 3D voxel modeling vs. 17-D morphological prior fusion.*
+
+| Architecture | Deployment Track | Rating MSE ↓ | Pearson $r$ ↑ | Conflict AUROC ↑ | Note / Key Clinical Insight |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| **3D-Det-CE** | Track 1 (3D CT-Only) | 1.2073 | 0.0407 | 0.5556 | Deterministic voxel baseline without disagreement awareness |
+| **3D-Hetero-Gauss** | Track 1 (3D CT-Only) | 2.2653 | 0.0042 | 0.4444 | Unstable optimization under sample-constrained 3D voxel regime |
+| **3D-Dirichlet** | Track 1 (3D CT-Only) | 1.0125 | 0.1354 | 0.5463 | Pure voxel modeling struggles near chance without morphological grounding |
+| **Multimodal-Dirichlet** | Track 2 (3D + Morph) | **0.5324** | **0.7638** | **0.7731** | **+0.2268 AUROC boost** via fusion of 17-D morphometric priors |
+
+> **Key Clinical Insight**: Predicting fine-grained inter-radiologist disagreement directly from raw 3D CT voxel cubes without explicit morphological descriptors is inherently sample-constrained and close to chance level (Conflict AUROC 0.5463). Fusing 3D volumetric embeddings with 17-dimensional radiological morphological priors (spiculation, lobulation, margin sharpness, internal texture) grounds visual representations in established diagnostic signs, boosting Conflict AUROC to 0.7731.
+
+### Table 3: 1,000 Patient-Clustered Paired Bootstrap Statistical Significance
+*Corresponds to Table 4 in manuscript. Values represent mean and 95% confidence intervals derived from 1,000 cluster-aware bootstrap resamplings ($N=202$ subjects).*
+
+| Model / Metric | Conflict AUROC [95% CI] | High-Disagree AUROC [95% CI] | ECE Calibration [95% CI] |
+| :--- | :---: | :---: | :---: |
+| **Det-CE** | 0.5554 [0.4942, 0.6126] | 0.4812 [0.4215, 0.5420] | 0.1248 [0.0827, 0.1678] |
+| **Hetero-Gauss** | 0.7392 [0.6815, 0.7924] | 0.8045 [0.7580, 0.8490] | **0.0454 [0.0225, 0.0712]** |
+| **MultiRater-Dirichlet (Ours)** | **0.7865 [0.7335, 0.8368]** | **0.8439 [0.8041, 0.8814]** | 0.0937 [0.0565, 0.1346] |
+| **Paired Gain $\Delta$** | **+0.2311 [0.1562, 0.3058]** | **+0.3627 [0.3036, 0.4244]** | — |
+
+*Note on Point Estimate vs. Bootstrap Mean: The proposed model achieves a point estimate Conflict AUROC of 0.7861 on the fixed test set (Table 1 above / Table 2 in paper), while the 1,000 patient-clustered bootstrap resampling distribution yields an empirical mean of 0.7865 with 95% CI [0.7335, 0.8368] (Table 3 above / Table 4 in paper).*
+
+*Note on Feature Ablations (Table 6 in paper): Feature ablations are conducted under a standardized, un-scheduled baseline training protocol to maintain strictly controlled relative comparison across feature drops, establishing an un-tuned baseline anchor of 0.7450 for the Full 17 Features configuration.*
+
+### ⚙️ Baseline Architecture Adaptation & Controlled Benchmarking Protocol
+
+A critical methodological requirement when evaluating multi-reader disagreement formulations is to isolate their loss objectives and uncertainty mechanisms from confounding variations in 3D deep backbone capacity (e.g., parameter scale, 3D kernel depth, or volumetric pretraining).
+
+- **Standardized Radiological Input Vector**: All multi-rater comparative architectures in Table 1 (LDL-Net, DP-CrowdNet, A3-Net, UCE-Net, KAN, and baselines) are evaluated on the standardized 17-dimensional radiological morphometric feature space of LIDC-IDRI (`subtlety`, `calcification`, `sphericity`, `margin`, `lobulation`, `spiculation`, `texture`, `internalStructure` means and standard deviations, plus nodule diameter and volume).
+- **Faithful Implementation of Published Loss Mechanics**:
+  - **LDL-Net (*MedIA 2024*)**: Implements label distribution learning on the probability 5-simplex via Kullback-Leibler divergence minimization against empirical radiologist rating distributions.
+  - **DP-CrowdNet (*CVPR 2024*)**: Implements diversified personalized multi-annotator prediction using 4 rater-specific embedding heads with permutation-invariant crowd loss.
+  - **A3-Net (*CVPR 2025*)**: Implements annotation ambiguity estimation with adaptive dynamic loss attenuation.
+  - **UCE-Net (*2025*)**: Implements dual-stream peer networks with symmetric discrepancy co-estimation.
+  - **KAN-adapted Baseline (*2024/2026*)**: Implements Kolmogorov-Arnold Networks parameterized by learnable B-spline activation functions.
+- **Independent 3D Volumetric Ablation (Table 2)**: The separate 3D evaluation (Table 2 above / Table 3 in paper) evaluates end-to-end 3D CNN voxel modeling (`Track 1: 3D CT-Only`) versus multimodal fusion with morphometric priors (`Track 2: 3D + Morph`), demonstrating that pure voxel cubes struggle to learn disagreement without morphological guidance (Conflict AUROC 0.5463), whereas multimodal fusion achieves 0.7731.
 
 ---
 
